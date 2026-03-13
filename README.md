@@ -32,14 +32,14 @@ The system is built on top of a Twitter-based communication platform where farme
 
 The proposed framework consists of three major components:
 
-1️⃣ Image-based Disease Detection  
-A CNN model (Inception-ResNet-v2) trained on the PlantVillage dataset to classify plant diseases.
+1️. Image-based Disease Detection  
+  A CNN model (Inception-ResNet-v2) trained on the PlantVillage dataset to classify plant diseases.
 
-2️⃣ NLP-based Solution Ranking  
-User solutions extracted from Twitter replies are processed using NLP techniques and compared using Word Mover’s Distance (WMD).
+2️. NLP-based Solution Ranking  
+  User solutions extracted from Twitter replies are processed using NLP techniques and compared using Word Mover’s Distance (WMD).
 
-3️⃣ Concept Drift Detection  
-Seasonal variations are handled using concept drift detection to dynamically switch prediction models.
+3️. Concept Drift Detection  
+  Seasonal variations are handled using concept drift detection to dynamically switch prediction models.
 
 ---
 
